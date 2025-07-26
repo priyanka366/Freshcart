@@ -26,6 +26,7 @@ import subCategoryRoutes from "./routes/subCategoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import productVariantRoutes from "./routes/productVariantRoutes.js";
 import cartRoutes from "./routes/cartRoutes.js"
+
 app.use('/api/v1/user',userRoutes);
 app.use('/api/v1/category',categoryRoutes);
 app.use('/api/v1/subCategory',subCategoryRoutes);
